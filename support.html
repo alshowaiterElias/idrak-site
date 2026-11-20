@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الدعم الفني والتواصل | إدراك • Idrak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #060e1c;
+      --surface: #0c172b;
+      --border: rgba(56, 189, 248, 0.22);
+      --cyan: #38bdf8;
+      --emerald: #34d399;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Cairo', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 18px 56px; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 18px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; margin-bottom: 28px;
+    }
+    .topbar a { color: var(--cyan); text-decoration: none; font-weight: 800; }
+    h1 { font-size: 1.9rem; font-weight: 900; margin-bottom: 8px; }
+    .sub { color: var(--muted); margin-bottom: 24px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 18px; padding: 20px;
+    }
+    .label { color: var(--muted); font-size: 0.85rem; font-weight: 700; }
+    .value { font-size: 1.15rem; font-weight: 900; margin: 6px 0 12px; direction: ltr; text-align: right; }
+    .btn {
+      display: inline-block; text-decoration: none;
+      background: rgba(56, 189, 248, 0.16); border: 1px solid rgba(56, 189, 248, 0.45);
+      color: var(--cyan); padding: 7px 14px; border-radius: 10px; font-weight: 800; font-size: 0.88rem;
+      margin-left: 8px;
+    }
+    h2 { font-size: 1.2rem; font-weight: 800; color: var(--emerald); margin-bottom: 8px; }
+    p { color: #cbd5e1; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <strong>إدراك • Idrak</strong>
+      <a href="index.html">العودة للرئيسية</a>
+    </div>
+
+    <h1>الدعم الفني والتواصل</h1>
+    <p class="sub">للمساعدة في تفعيل الكورسات، استعادة التفعيل عند تغيير الهاتف، أو طلب حذف البيانات:</p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="label">الهاتف / واتساب</div>
+        <div class="value">+967 772546343</div>
+        <a class="btn" href="https://wa.me/967772546343" target="_blank" rel="noopener">واتساب</a>
+        <a class="btn" href="tel:+967772546343">اتصال</a>
+      </div>
+      <div class="card">
+        <div class="label">البريد الإلكتروني للدعم</div>
+        <div class="value">alshowaiterelias@gmail.com</div>
+        <a class="btn" href="mailto:alshowaiterelias@gmail.com?subject=دعم%20تطبيق%20إدراك">إرسال بريد</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>حذف البيانات أو إعادة ربط الجهاز</h2>
+      <p>
+        إذا قمت بتغيير هاتفك أو رغبت في حذف تقييماتك أو بيانات معرف الجهاز المرتبطة بكود التفعيل،
+        تواصل معنا عبر البريد الإلكتروني أو واتساب مع تزويدنا بمعرف الجهاز الظاهر داخل التطبيق أو إيصال الاشتراك.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
